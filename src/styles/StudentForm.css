@@ -1,0 +1,74 @@
+.student-form{
+    height: 900px;
+    width: 500px;
+
+    font-family: Roboto, Arial, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-heading{
+    font-size: 36px;
+    width: 100%;
+    border-width: 0;
+    margin-left: 95px;
+
+}
+.submit-btn{
+    height: 45px;
+    width: 120px;
+    margin-left: 180px;
+    background-color: #fa8704;
+    border: none;
+    color: black;
+    font-size: 20px;
+    display: block;
+}
+.logo{
+    height: 350px;
+
+    margin-bottom: 10px;
+}
+
+.coupon-btn{
+    border-width: 0;
+    background-color: white;
+}
+
+.coupon-btn:hover,
+.coupon-btn:active{
+    border-width: 0;
+    border-color: white;
+}
+
+.container{
+    margin-left: 600px;
+}
+
+.custom-date-input {
+    position: relative;
+}
+
+.custom-date-input input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.custom-date-input input[type="date"] {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.custom-date-input .placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    padding: 8px;
+    color: #ffffff;
+    pointer-events: none;
+}
+.form-group{
+    margin-bottom: 20px;
+}
